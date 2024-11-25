@@ -1,4 +1,4 @@
-const Protecao = require('../../models/chacal/protecao');
+const Protecao = require('../../models/Chacal/protecao');
 
 const saveService = (body) => Protecao.create(body);
 
